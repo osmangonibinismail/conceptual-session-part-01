@@ -1,0 +1,3 @@
+Output x: 5
+Output y: 10
+Character z: D

@@ -1,1 +1,4 @@
-Two
+Enter number of X: 
+Enter number of Y: 
+Value of X: 4194432
+Value of Y: 3330048

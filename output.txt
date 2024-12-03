@@ -1,4 +1,7 @@
-Enter number of X: 
-Enter number of Y: 
-Value of X: 4194432
-Value of Y: 3330048
+10
+10
+9
+10
+8
+8
+7

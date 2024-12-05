@@ -42,7 +42,6 @@
 //     return 0;
 // }
 
-
 // #include<stdio.h>
 // int main()
 // {
@@ -53,7 +52,6 @@
 //     return 0;
 
 // }
-
 
 // #include<stdio.h>
 // int main()
@@ -77,26 +75,126 @@
 
 //     return 0;
 // }
-#include<stdio.h>
+// #include<stdio.h>
+// int main()
+// {
+//     int A = 10;
+//     printf("%d\n", A);
+
+//     int X = A++;
+//     printf("%d\n", X);
+
+//     --X;
+//     printf("%d\n", X);
+//     A--;
+//     printf("%d\n", A);
+
+//     int y = --X;
+//     printf("%d\n", y);
+
+//     printf("%d\n",y--);
+//     printf("%d\n", y);
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int x = 5;
+//     int y = 4;
+
+//     double result = x / (y * 1.0);
+
+//     printf("%lf", result);
+
+//     return 0;
+// }
+// #include<stdio.h>
+// int main()
+// {
+//     long long int x = 100000;
+//     int y = 100000;
+
+//     long long result = x * y;
+
+//     printf("%lld", result);
+
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main()
+// {
+//     if(3 != 5 && 5 < 2){
+//         printf("gotna sotto");
+//     }
+//     // else if(3 != 5 && 5 > 2){
+//     //     printf("uporer gotna mitta majer gotna sotto");
+//     // }
+//     else{
+//         printf("gotna mitta");
+//     }
+
+//     return 0;
+// }
+
+// #include<stdio.h>
+// int main()
+// {
+//     int opt;
+//     scanf("%d", &opt);
+
+//     switch (opt)
+//     {
+//     case 1:
+//         printf("One");
+//         break;
+
+//     case 2:
+//         printf("Two");
+//         break;
+
+//     case 3:
+//         printf("Three");
+//         break;
+
+//     case 4:
+//         printf("Four");
+//         break;
+
+//     default:
+//     printf("Invalid Number");
+//         break;
+//     }
+// }
+
+#include <stdio.h>
 int main()
 {
-    int A = 10;
-    printf("%d\n", A);
+    int n;
+    scanf("%d", &n);
 
-    int X = A++;
-    printf("%d\n", X);
-
-    --X;
-    printf("%d\n", X);
-    A--;
-    printf("%d\n", A);
-
-    int y = --X;
-    printf("%d\n", y);
-
-    printf("%d\n",y--);
-    printf("%d\n", y);
-
-
-    return 0;
+    if (n % 2 == 0)
+    {
+        if (n < 10)
+        {
+            printf("n is even and n is grettar then 10");
+        }
+        else
+        {
+            printf("n is even and n is less then 10");
+        }
+    }
+    else
+    {
+        if (n < 10)
+        {
+            printf("n is odd and n is grettar then 10");
+        }
+        else
+        {
+            printf("n is odd and n is less then 10");
+        }
+    }
 }

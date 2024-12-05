@@ -1,7 +1,1 @@
-10
-10
-9
-10
-8
-8
-7
+n is even and n is grettar then 10

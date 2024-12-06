@@ -1,1 +1,1 @@
-n is even and n is grettar then 10
+-1

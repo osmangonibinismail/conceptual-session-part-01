@@ -169,32 +169,101 @@
 //     }
 // }
 
-#include <stdio.h>
+// #include <stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+
+//     if (n % 2 == 0)
+//     {
+//         if (n < 10)
+//         {
+//             printf("n is even and n is grettar then 10");
+//         }
+//         else
+//         {
+//             printf("n is even and n is less then 10");
+//         }
+//     }
+//     else
+//     {
+//         if (n < 10)
+//         {
+//             printf("n is odd and n is grettar then 10");
+//         }
+//         else
+//         {
+//             printf("n is odd and n is less then 10");
+//         }
+//     }
+// }
+
+
+//for loop
+
+// #include<stdio.h>
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+
+//     for(int i = n; i <= 100; i+=n){
+//         printf("Print number: %d\n", i);
+//     }
+
+//     return 0;
+// }
+
+//while loop
+
+// #include <stdio.h>
+// int main()
+// {
+//     int i = 0;
+
+//     while (i < 100)
+//     {
+//         printf("Initialize value: %d; ", i);
+
+//         i += 10;
+//         printf("update value: %d\n", i);
+//     }
+// }
+
+//do while
+
+// #include<stdio.h>
+// int main()
+// {
+//     int i = 11;
+
+//     do{
+//         printf("first print: %d; ",i);
+//         i++;
+//         printf("last print: %d\n",i);
+//     }
+//     while(i<10);
+// }
+
+#include<stdio.h>
 int main()
 {
     int n;
-    scanf("%d", &n);
+    scanf("%d",&n);
 
-    if (n % 2 == 0)
-    {
-        if (n < 10)
-        {
-            printf("n is even and n is grettar then 10");
-        }
-        else
-        {
-            printf("n is even and n is less then 10");
+    int count = 0;
+
+    for(int i = 1; i <= n; i++){
+        if(i % 2 == 0){
+
+            count = count + 1;
+            printf("%d\n",i);
         }
     }
-    else
-    {
-        if (n < 10)
-        {
-            printf("n is odd and n is grettar then 10");
-        }
-        else
-        {
-            printf("n is odd and n is less then 10");
-        }
+    if(count == 0){
+        printf("-1");
     }
+
+    return 0;
 }
